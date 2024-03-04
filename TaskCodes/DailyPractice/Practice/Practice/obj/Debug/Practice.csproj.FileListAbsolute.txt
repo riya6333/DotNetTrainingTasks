@@ -1,0 +1,7 @@
+D:\Riya\Infinite\TaskCodes\TaskCodes\DailyPractice\Practice\Practice\bin\Debug\Practice.exe.config
+D:\Riya\Infinite\TaskCodes\TaskCodes\DailyPractice\Practice\Practice\bin\Debug\Practice.exe
+D:\Riya\Infinite\TaskCodes\TaskCodes\DailyPractice\Practice\Practice\bin\Debug\Practice.pdb
+D:\Riya\Infinite\TaskCodes\TaskCodes\DailyPractice\Practice\Practice\obj\Debug\Practice.csproj.AssemblyReference.cache
+D:\Riya\Infinite\TaskCodes\TaskCodes\DailyPractice\Practice\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+D:\Riya\Infinite\TaskCodes\TaskCodes\DailyPractice\Practice\Practice\obj\Debug\Practice.exe
+D:\Riya\Infinite\TaskCodes\TaskCodes\DailyPractice\Practice\Practice\obj\Debug\Practice.pdb
