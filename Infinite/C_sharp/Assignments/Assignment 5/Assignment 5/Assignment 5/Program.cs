@@ -72,20 +72,16 @@ namespace Assignment_5
             }
         }
 
-        public int Count
-        {
-            get { return books.Count; }
-        }
 
         public IEnumerator<Books> GetEnumerator()
         {
             return books.GetEnumerator();
         }
-
         IEnumerator IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
         }
+
     }
 
     class Program

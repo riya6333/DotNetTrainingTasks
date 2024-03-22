@@ -84,3 +84,6 @@ select * from Departments
 select * from Employees
 select * from Projects
 select * from EmpProjectTasks
+
+use  AssignmentDB
+

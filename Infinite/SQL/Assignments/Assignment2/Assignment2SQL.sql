@@ -1,5 +1,4 @@
-create database Assignment2DB
-use Assignment2DB
+use AssignmentDB
 
 create table DEPT (
     DEPTNO Numeric(4) Primary Key,
@@ -115,9 +114,3 @@ JOIN EMP E ON M.EMPNO = E.MGR_ID
 where M.JOB = 'MANAGER'
 GROUP BY M.ENAME
 HAVING COUNT(E.EMPNO) > 2;
-
-
-
-
-
-
