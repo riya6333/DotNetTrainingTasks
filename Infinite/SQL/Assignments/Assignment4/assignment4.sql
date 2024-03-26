@@ -20,11 +20,11 @@ CREATE PROCEDURE MultiplicationTables
 AS
 BEGIN
     DECLARE @i INT = 1;
-    DECLARE @j INT; -- Declare @end outside the loop
+    DECLARE @j INT;
 
     WHILE @i <= @maxNumber
     BEGIN
-        SET @j = 1; -- Initialize @end inside the loop
+        SET @j = 1; 
 
         WHILE @j <= @maxNumber
         BEGIN
@@ -61,13 +61,11 @@ begin
     declare @Holiday_Name varchar(30);
 
     set @Current_Date = getdate();
-    select @Holiday_Name = Holiday_Name
-    from Holiday_Table
-    where Holiday_Date = @Current_Date;
+    select @Holiday_Name = Holiday_Name from Holiday_Table where Holiday_Date = @Current_Date;
 
     if @Holiday_Name is not null
     begin
         raiserror('Due to %s, you cannot manipulate data.', 16, 1, @Holiday_Name);
-        rollback; -- Rollback without specifying transaction name
+        rollback; 
     end
 end;
