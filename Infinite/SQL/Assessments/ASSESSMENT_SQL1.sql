@@ -152,10 +152,8 @@ from CUSTOMERS
 where Address LIKE '%o%';
 
 /*5---------------------------------------*/
-select Order_Date AS Date,(select COUNT(DISTINCT Customer_ID)
-from ORDERS o
-where o.Order_Date = o2.Order_Date) AS Total_Customers
-from ORDERS o2
+select Order_Date AS Date,COUNT ( Customer_ID)
+from ORDERS 
 GROUP BY Order_Date;
 
 /*6---------------------------------------*/
