@@ -70,6 +70,7 @@ namespace AssessmentADO1
                 Console.WriteLine("Employee Name : " + dr[1]);
                 Console.WriteLine("Employee Salary : " + dr[2]);
                 Console.WriteLine("Employee Type P/C : " + dr[3]);
+                Console.WriteLine();
             }
         }
     }
